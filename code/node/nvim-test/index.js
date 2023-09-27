@@ -1,5 +1,8 @@
+const chalk = require("chalk");
+
+
 function hello() {
-  console.log("Hello World");
+  console.log(chalk.green.bold("Hello World"));
 }
 
 hello();
